@@ -1,0 +1,552 @@
+{
+	"custom_trains": {
+		"elevator_moving_sideways": {
+            "name": "Elevator Moving Sideways",
+            "description": "3x3x3.\n Door variant is Ricktrain compatible.\n\n Programming: CinderaceOTS",
+            "wikipedia_article": "https://en.wikipedia.org/wiki/Elevator",
+            "color": "999999",
+            "gangway_connection_id": "",
+            "train_barrier_id": "",
+            "door_animation_type": "STANDARD",
+            "render_door_overlay": false,
+            "rider_offset": 0,
+            "texture_id": "mtr:elevator_moving_sideways/elevator_moving_sideways.png",
+	    	"bve_sound_base_id": "london_underground_1995",
+	    	"has_gangway_connection": false,
+            "model": "mtr:elevator_moving_sideways/elevator_moving_sideways.bbmodel",
+            "model_properties": "mtr:elevator_moving_sideways/elevator_moving_sideways.json"
+		},
+		
+		"c321_mtrain": {
+			"name": "M-Train (TRTC C321 Livery)",
+			"color": "3F78C9",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:trains/trtc/c321.png",
+			"speed_sound_count": 51,
+			"door_sound_base_id": "simensgto",
+			"speed_sound_base_id": "simensgto"
+		},
+		"mini_c321_mtrain": {
+			"name": "M-Train (TRTC C321 Livery)(mini)",
+			"color": "3F78C9",
+			"base_train_type": "m_train_mini",
+			"texture_id": "mtr:trains/trtc/c321.png",
+			"speed_sound_count": 51,
+			"door_sound_base_id": "simensgto",
+			"speed_sound_base_id": "simensgto"	
+		},
+		"real_c321_mtrain": {
+			"name": "M-Train (TRTC C321 Livery)(4 doors)",
+			"color": "3F78C9",
+			"base_train_type": "m_train_small",
+			"texture_id": "mtr:trains/trtc/c321.png",
+			"speed_sound_count": 51,
+			"door_sound_base_id": "simensgto",
+			"speed_sound_base_id": "simensgto"
+		},
+
+		"class_377_stepfordconnect": {
+			"name": "Class 377 Connect",
+			"color": "FFFFFF",
+			"base_train_type": "class_377_southern",
+			"texture_id": "mtr:trains/class_377/sc/class_377_sc.png"
+		},
+		"class_377_tpe":{
+			"name":"Class 377 Interlink",
+			"color":"FEC5E5",
+			"base_train_type":"class_377_southern",
+			"texture_id":"mtr:trains/class_377/tpe/class_377_tpe.png"
+		},
+		"class_377_mersey":{
+			"name":"Class 377 Merseyrail",
+			"color":"FEC5E5",
+			"base_train_type":"class_377_southern",
+			"texture_id":"mtr:trains/class_377/merseyrail/class_377_merseyrail.png"
+		},
+		"southeastern_377":{
+			"name":"Class 377 Southeastern",
+			"color":"FFFFFF",
+			"base_train_type":"class_377_southern",
+			"texture_id":"mtr:trains/class_377/southeastern/class_377_southeastern.png"
+		},
+
+		"emu4003": {
+			"name": "EMU4003",
+			"color": "06b4c8",
+			"base_train_type": "c_train",
+			"door_animation_type": "STANDARD",
+			"texture_id": "mtr:trains/emu/4003/emu4003normal.png"
+		},
+		"emu4003s": {
+			"name": "EMU4003 (Small)",
+			"color": "06b4c8",
+			"base_train_type": "c_train_small",
+			"door_animation_type": "STANDARD",
+			"texture_id": "mtr:trains/emu/4003/emu4003normal.png"
+		},
+		"emu4003m": {
+			"name": "EMU4003 (Mini)",
+			"color": "06b4c8",
+			"base_train_type": "c_train_mini",
+			"door_animation_type": "BOUNCY_2",
+			"texture_id": "mtr:trains/emu/4003/emu4003normal.png"
+		},
+		"emu4003_janet": {
+			"name": "EMU4003 (Janet Rocket Line (3))",
+			"color": "06b4c8",
+			"base_train_type": "c_train",
+			"door_animation_type": "STANDARD",
+			"texture_id": "mtr:trains/c_train/c_trainkek_janet.png"
+		},
+		"emu4003s_janet": {
+			"name": "EMU4003 (Small, Janet Rocket Line (3))",
+			"color": "06b4c8",
+			"base_train_type": "c_train_small",
+			"door_animation_type": "STANDARD",
+			"texture_id": "mtr:trains/c_train/c_trainkek_janet.png"
+		},
+		"emu4003m_janet": {
+			"name": "EMU4003 (Mini, Janet Rocket Line (3))",
+			"color": "06b4c8",
+			"base_train_type": "c_train_mini",
+			"door_animation_type": "BOUNCY_2",
+			"texture_id": "mtr:trains/c_trainkek_janet.png"
+		},
+			"lemu100": {
+			"name": "LEMU100 Son of Light Line (1) (Surge)",
+			"color": "d0d000",
+			"base_train_type": "london_underground_1995",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/son_of_light_tex_real.png"
+		},
+		"emu4002a": {
+			"name": "EMU4002A Tozai Line (2)",
+			"color": "063468",
+			"base_train_type": "a_train_tcl_small",
+			"door_animation_type": "PLUG_FAST",
+			"texture_id": "mtr:trains/a_train/a_train_tcl_sakurasakura.png"
+		},
+		"emu4002a_m": {
+			"name": "EMU4002A Tozai Line (2) (Mini)",
+			"color": "063468",
+			"base_train_type": "a_train_tcl_mini",
+			"door_animation_type": "PLUG_FAST",
+			"texture_id": "mtr:trains/a_trian/a_train_tcl_sakurasakura.png"
+		},
+		"emu4003a": {
+			"name": "EMU4003A (Stella)",
+			"color": "2446bd",
+			"base_train_type": "r211t",
+			"door_animation_type": "MLR",
+			"texture_id": "mtr:trains/4004/4004.png"
+		},
+		"emu4003amini": {
+			"name": "EMU4003A mini (Swinger)",
+			"color": "2446bd",
+			"base_train_type": "r211t_mini",
+			"door_animation_type": "MLR",
+			"texture_id": "mtr:trains/4004/4004.png"
+		},
+		"emu4003a_janet": {
+			"name": "EMU4003A (Stella, Janet Rocket Line (3))",
+			"color": "2446bd",
+			"base_train_type": "r211t",
+			"door_animation_type": "MLR",
+			"texture_id": "mtr:trains/4004/4004_janet.png"
+		},
+		"emu4003amini_janet": {
+			"name": "EMU4003A mini (Swinger, Janet Rocket Line (3))",
+			"color": "2446bd",
+			"base_train_type": "r211t_mini",
+			"door_animation_type": "MLR",
+			"texture_id": "mtr:trains/4004/4004_janet.png"
+		},
+		"xemu2204": {
+			"name": "XEMU2204 (Red Dragon)",
+			"color": "ca1e48",
+			"base_train_type": "e44",
+			"door_animation_type": "MLR",
+			"texture_id": "mtr:trains/e44_bcl_red_dragon.png"
+		},
+		"xemu2204_mini": {
+			"name": "XEMU2204 (Red Dragon, Mini)",
+			"color": "ca1e48",
+			"base_train_type": "e44_mini",
+			"door_animation_type": "MLR",
+			"texture_id": "mtr:trains/e44_bcl_red_dragon.png"
+		},
+		"semu3408": {
+			"name": "EMU4010 (OR Ottoland Line (6) Train)",
+			"color": "cbc98a",
+			"base_train_type": "r_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/ottoland_line_final.png"
+		},
+		"semu3408_small": {
+			"name": "EMU4010A (OR Ottoland Line Train (6), Small)",
+			"color": "cbc98a",
+			"base_train_type": "r_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/ottoland_line_final.png"
+		},
+		"semu3408_mini": {
+			"name": "EMU4010B (OR Ottoland Line (6) / North Port West LRT Train, Mini)",
+			"color": "cbc98a",
+			"base_train_type": "r_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/ottoland_line_final.png"
+		},
+		"emu4003bF": {
+			"name": "EMU4003B (OR Otto-Mansion Line (5) Train)",
+			"color": "ff6000",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/s_train/s_train.png"
+		},
+		"emu4003b1F": {
+			"name": "EMU4003B (OR Otis-Otto Line (8) Train)",
+			"color": "29a69a",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/s_train/s_train_line8.png"
+		},
+		"emu4003b2F": {
+			"name": "EMU4003B (Red)",
+			"color": "ff0000",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_red.png"
+		},
+		"emu4003b3F": {
+			"name": "EMU4003B (Yellow)",
+			"color": "ffff00",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_yellow.png"
+		},
+		"emu4003b4F": {
+			"name": "EMU4003B (Green)",
+			"color": "00b000",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_green.png"
+		},
+		"emu4003b5F": {
+			"name": "EMU4003B (Blue)",
+			"color": "0070b0",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_blue.png"
+		},
+		"emu4003b6F": {
+			"name": "EMU4003B (Purple)",
+			"color": "8000ff",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_purple.png"
+		},
+		"emu4003b7F": {
+			"name": "EMU4003B (Magenta)",
+			"color": "ff00ff",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_magenta.png"
+		},
+		"emu4003bP3F": {
+			"name": "EMU4003B (Line P3)",
+			"color": "94e922",
+			"base_train_type": "s_train",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_suu.png"
+		},
+		"emu4003bS": {
+			"name": "EMU4003B (OR Otto-Mansion Line (5) Train, Small)",
+			"color": "ff6000",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/s_train/s_train.png"
+		},
+		"emu4003b1S": {
+			"name": "EMU4003B (OR Otis-Otto Line (8) Train, Small)",
+			"color": "29a69a",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/s_train/s_train_line8.png"
+		},
+		"emu4003b2S": {
+			"name": "EMU4003B (Red, Small)",
+			"color": "ff0000",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_red.png"
+		},
+		"emu4003b3S": {
+			"name": "EMU4003B (Yellow, Small)",
+			"color": "ffff00",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_yellow.png"
+		},
+		"emu4003b4S": {
+			"name": "EMU4003B (Green, Small)",
+			"color": "00b000",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_green.png"
+		},
+		"emu4003b5S": {
+			"name": "EMU4003B (Blue, Small)",
+			"color": "0070b0",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_blue.png"
+		},
+		"emu4003b6S": {
+			"name": "EMU4003B (Purple, Small)",
+			"color": "8000ff",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_purple.png"
+		},
+		"emu4003b7S": {
+			"name": "EMU4003B (Magenta, Small)",
+			"color": "ff00ff",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_magenta.png"
+
+		},
+		"emu4003bP3S": {
+			"name": "EMU4003B (Line P3, Small)",
+			"color": "94e922",
+			"base_train_type": "s_train_small",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_suu.png"
+		},
+		"emu4003bM": {
+			"name": "EMU4003B (OR Otto-Mansion Line (5) Train, Mini)",
+			"color": "ff6000",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/s_train/s_train.png"
+		},
+		"emu4003b1M": {
+			"name": "EMU4003B (OR Otis-Otto Line (8) Train, Mini)",
+			"color": "29a69a",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/s_train/s_train_line8.png"
+		},
+		"emu4003b2M": {
+			"name": "EMU4003B (Red, Mini)",
+			"color": "ff0000",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_red.png"
+		},
+		"emu4003b3M": {
+			"name": "EMU4003B (Yellow, Mini)",
+			"color": "ffff00",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_yellow.png"
+		},
+		"emu4003b4M": {
+			"name": "EMU4003B (Green, Mini)",
+			"color": "00b000",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_green.png"
+		},
+		"emu4003b5M": {
+			"name": "EMU4003B (Blue, Mini)",
+			"color": "0070b0",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_blue.png"
+		},
+		"emu4003b6M": {
+			"name": "EMU4003B (Purple, Mini)",
+			"color": "8000ff",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_purple.png"
+		},
+		"emu4003b7M": {
+			"name": "EMU4003B (Magenta, Mini)",
+			"color": "ff00ff",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_magenta.png"
+		},
+		"emu4003bP3M": {
+			"name": "EMU4003B (Line P3, Mini)",
+			"color": "94e922",
+			"base_train_type": "s_train_mini",
+			"door_animation_type": "STANDARD_SLOW",
+			"texture_id": "mtr:trains/4003/4003_suu.png"
+		},
+		"hsr2207": {
+			"name": "XEMU2207 (ORHSR RDS Winner Train 'Sakura')",
+			"color": "f49deb",
+			"base_train_type": "a_train_ael",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/a_train/a_train_ael.png"
+		},
+		"hsr2207-1": {
+			"name": "XEMU2207a (ORHSR RDS Winner Train 'Sakura', Mini)",
+			"color": "f49deb",
+			"base_train_type": "a_train_ael_mini",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/a_train/a_train_ael.png"
+		},
+		"hsr2207-2": {
+			"name": "XEMU2207-1 (ORHSR 'General')",
+			"color": "31613d",
+			"base_train_type": "a_train_ael",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/a_train/a_train_code_general.png"
+		},
+		"hsr2207-3": {
+			"name": "XEMU2207-1a (ORHSR 'General', Mini)",
+			"color": "31613d",
+			"base_train_type": "a_train_ael_mini",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/a_train/a_train_code_general.png"
+		},
+		"hsr2211": {
+			"name": "XEMU2211 (OR Kintetsu 'Amu')",
+			"color": "f06671",
+			"base_train_type": "class_377_southern",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/class_377/class_377_southern.png"
+		},
+		"emu4014": {
+			"name": "EMU4014 ('Mirai')",
+			"color": "2e77d5",
+			"base_train_type": "k_train",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/emu/4014/emu4014.png"
+		},
+		"emu4014a": {
+			"name": "EMU4014 ('Mirai', Small)",
+			"color": "2e77d5",
+			"base_train_type": "k_train_small",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/emu/4014/emu4014.png"
+		},
+		"emu4014b": {
+			"name": "EMU4014 ('Mirai', Mini)",
+			"color": "2e77d5",
+			"base_train_type": "k_train_mini",
+			"door_animation_type": "PLUG_SLOW",
+			"texture_id": "mtr:trains/emu/4014/emu4014.png"
+		},
+		"emu4010t1": {
+			"name": "EMU4010A (OR Tohka Yatogami Easter Egg Train, Normal)",
+			"base_train_type": "r_train",
+			"texture_id": "mtr:trains/tohka_4010.png",
+			"color": "6529d6"
+		},
+		"emu4010t2": {
+			"name": "EMU4010A (OR Tohka Yatogami Easter Egg Train, Small)",
+			"base_train_type": "r_train_small",
+			"texture_id": "mtr:trains/tohka_4010.png",
+			"color": "6529d6"
+		},
+		"emu4010t3": {
+			"name": "EMU4010A (OR Tohka Yatogami Easter Egg Train, Mini)",
+			"base_train_type": "r_train_mini",
+			"texture_id": "mtr:trains/tohka_4010.png",
+			"color": "6529d6"
+		},
+			"emu4010p2a": {
+			"name": "EMU4010A (OR Mount Birch Line (P2) Train, Normal)",
+			"base_train_type": "r_train",
+			"texture_id": "mtr:trains/p2_4010.png",
+			"color": "3c78d8"
+		},
+		"emu4010p2b": {
+			"name": "EMU4010A (OR Mount Birch Line (P2) Train, Small)",
+			"base_train_type": "r_train_small",
+			"texture_id": "mtr:trains/p2_4010.png",
+			"color": "3c78d8"
+		},
+		"emu4010p2": {
+			"name": "EMU4010A (OR Mount Birch Line (P2) Train, Mini)",
+			"base_train_type": "r_train_mini",
+			"texture_id": "mtr:trains/p2_4010.png",
+			"color": "3c78d8"
+		}
+    },
+
+	
+    "custom_signs": {
+		"station_signs_mind_gap": {
+			"texture_id": "mtr:signs/station/mind_gap.png",
+			"flip_texture": false,
+			"small": true
+		},
+
+        "exit_signs_blank_blue": {
+            "texture_id": "mtr:signs/exit_signs_letter/blank_blue.png",
+            "flip_texture": false,
+            "small": true,
+            "background_color": "#3A3F4A"
+        },
+        "exit_signs_letter_blue": {
+            "texture_id": "mtr:signs/exit_signs_letter/letter_blue.png",
+            "flip_texture": false,
+            "small": true,
+            "background_color": "#3A3F4A"
+        },
+        "exit_signs_blank_brown": {
+            "texture_id": "mtr:signs/exit_signs_letter/blank_brown.png",
+            "flip_texture": false,
+            "small": true,
+            "background_color": "#AF6F09"
+        },
+        "exit_signs_letter_brown": {
+            "texture_id": "mtr:signs/exit_signs_letter/letter_brown.png",
+            "flip_texture": false,
+            "small": true,
+            "background_color": "#AF6F09"
+        },
+		"exit_signs_blank_green": {
+			"texture_id": "mtr:signs/exit_sign_letter/blank_green.png",
+			"flip_texture": false,
+			"small": true,
+			"background_color": "#138659"
+		},
+		"exit_sign_letter_green": {
+			"texture_id": "mtr:signs/exit_sign_letter/letter_green.png",
+			"flip_texture": false,
+			"small": true,
+			"background_color": "#138659"
+		},
+		"exit_sign_blank_red": {
+			"texture_id": "mtr:signs/exit_sign_letter/blank_red.png",
+			"flip_texture": false,
+			"small": true,
+			"background_color": "#8f2828"
+		},
+		"exit_sign_letter_red": {
+			"texture_id": "mtr:signs/exit_sign_letter/letter_red.png",
+			"flip_texture": false,
+			"small": true,
+			"background_color": "#8f2828"
+		},
+		
+		"rs_logo": {
+			"texture_id": "mtr:signs/rs/rs_logo.png",
+			"flip_texture": false,
+			"small": true
+		},
+		"rs_logo_background": {
+			"texture_id": "mtr:signs/rs/rs_logo.png",
+			"flip_texture": false,
+			"small": true,
+			"background_color": "#"
+		}
+    }
+}

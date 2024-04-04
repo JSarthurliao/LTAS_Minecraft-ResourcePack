@@ -1,0 +1,12 @@
+{
+	"rail_platform_concrete_gray_1_1": {
+		"name": "rail, platform gray concrete 1.1",
+        "model": "mtrsteamloco:rails/rail_platform_concrete_gray.obj",
+		"repeatInterval": 1.1
+    },
+    "rail_bridge_concrete_gray_1_1": {
+		"name": "rail, bridge gray concrete 1.1",
+        "model": "mtrsteamloco:rails/rail_bridge_concrete_gray.obj",
+		"repeatInterval": 1.1
+    }
+}
