@@ -1,1 +1,1 @@
-# RS_Minecraft-ResourcePack
+# LTAS_Minecraft-ResourcePack
